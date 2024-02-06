@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slay with Alva</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <!-- For navigation bar -->
+    <section id="header">
+        <!-- <a href="#"><img src="./img/logo10a.jpg" class="logo" alt="logo"></a> -->
+        <a href="#"><img src="./img/logo1.png" class="logo" alt="logo"></a>
+        <!-- <p>Slay with Alva</p> -->
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"> <i class="fas fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-outdent"></i>
+            
+        </div>
+    </section>
+
+    <!-- For hero section -->
+    <section id="page-header" class="about-header">
+        <h2>#shopping page</h2>
+        <p>Items you've added to your cart to purchase</p>
+    </section>
+
+    <!-- Table -->
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                   <td>Remove</td> 
+                   <td>Image</td> 
+                   <td>Product</td> 
+                   <td>Price</td> 
+                   <td>Quantity</td> 
+                   <td>Subtotal</td> 
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="./img/products/o1.jpg" alt="product"></td>
+                    <td>Cooperate Secret two-piece</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="./img/products/m2.jpg" alt="product"></td>
+                    <td>Cooperate Secret blazer</td>
+                    <td>$102.35</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$220.54</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="./img/products/m1.jpg" alt="product"></td>
+                    <td>Cooperate Secret blouse</td>
+                    <td>$90.00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$310.54</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter your coupon ">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$ 310.54</td>
+                </tr>
+                <tr>
+                    <td>Delivery</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$ 310.54</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+    </section>
+
+    <!-- Footer  -->
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="./img/logo1.png" alt="logo">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 2nd floor,
+                Spar,
+                Beside government house, <br>
+                Port Harcourt,
+                Rivers State,
+                Nigeria.</p>
+            <p><strong>Phone:</strong> +243 811 237 3455</p>
+            <p><strong>Hours:</strong> 9:00 - 19:00, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery information</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms & Condition</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="./img/pay/app.jpg" alt="app">
+                <img src="./img/pay/play.jpg" alt="play-store">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="./img/pay/pay.png" alt="payment options">
+        </div>
+
+        <div class="copyright">
+            <p>~ 2023, Alva's store webpage. Coded by <a href="https://www.github.com/MaryUba" target="_blank">Mary Uba</a>. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
